@@ -1,12 +1,12 @@
 import Navigation from "./components/Navigation";
-import Player from "./components/player";
 import "./App.css";
+import Player from "./components/Players";
 
 function App() {
   return (
     <div className='App'>
-      <Navigation />
-      <Player />
+      <Navigation/>
+      <Player/>
     </div>
   );
 }

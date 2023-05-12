@@ -1,23 +1,23 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 export default class Navigation extends Component {
   render() {
     return (
-      <div>
+      <div class="header">
         <nav>
-          <ul>
+          <ul class="menu">
             <li>
-              <a className="active" href="#home">
+              <a className='active' href='#home'>
                 Home
               </a>
             </li>
             <li>
-              <a href="#news">News</a>
+              <a href='#news'>News</a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href='#about'>About</a>
             </li>
             <li>
-              <a href="#contact ">Contact</a>
+              <a href='#contact '>Contact</a>
             </li>
           </ul>
         </nav>
