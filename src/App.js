@@ -5,8 +5,8 @@ import Player from "./components/Players";
 function App() {
   return (
     <div className='App'>
-      <Navigation/>
-      <Player/>
+      <Navigation />
+      <Player />
     </div>
   );
 }
