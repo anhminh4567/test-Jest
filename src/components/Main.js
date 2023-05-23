@@ -6,3 +6,5 @@ export default function Main() {
   const [player, setPlayer] = useState(Players);
   return <PlayersPresentation players={player} />;
 }
+
+

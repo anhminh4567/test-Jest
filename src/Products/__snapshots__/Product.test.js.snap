@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render when there are Many item 1`] = `
+<div>
+  <ol>
+    <li>
+      anything
+    </li>
+  </ol>
+  <ol>
+    <li>
+      asdfasd
+    </li>
+  </ol>
+  <ol>
+    <li>
+      just print stuff
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`render when there are no item 1`] = `
+<div>
+  No item found!
+</div>
+`;
+
+exports[`render when there are one item 1`] = `
+<div>
+  <ol>
+    <li>
+      anything
+    </li>
+  </ol>
+</div>
+`;
